@@ -12,6 +12,9 @@ body {
   margin: auto;
   font-family: "Oswald", Verdana, Arial, sans-serif;
 }
+.container {
+  height: 500px;
+}
 #header {
   width: 100%;
   height: 80px;
@@ -70,4 +73,46 @@ h1 {
 }
 #footer p {
   margin: 0px;
+}
+.wrapper {
+  display: flex;
+  margin-top: 10px;
+}
+.left-column {
+  float: left;
+  width: 20%;
+  background-color: #fff;
+  height: 200px;
+}
+.middle-column {
+  float: left;
+  width: 60%;
+  background-color: #fff;
+  height: 200px;
+}
+.middle-column p {
+  margin: 0px;
+  font-size: 12px;
+}
+.right-column {
+  float: left;
+  width: 20%;
+  background-color: #fff;
+  height: 200px;
+}
+#jeremyImg {
+  width: 200px;
+  height: 200px;
+}
+#developerImg {
+  width: 200px;
+  height: 200px;
+}
+
+#useful-links ul {
+  list-style-type: none;
+  text-align: center;
+}
+.links-title {
+  color: #1cc776;
 }
