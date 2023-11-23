@@ -8,13 +8,14 @@
 
 */
 body {
-  margin: auto;
+  width: 960px;
+  margin: 0 auto;
   /* width: 960px;
   margin: auto; */
   font-family: "Oswald", Verdana, Arial, sans-serif;
 }
 .container {
-  height: 500px;
+  height: 100%;
 }
 #header {
   width: 100%;
@@ -70,7 +71,7 @@ h1 {
   border-bottom: 10px solid #1cc776;
   color: #fff;
   width: 100%;
-  margin: 0px;
+  bottom: 0;
 }
 #footer p {
   margin: 0px;
