@@ -8,8 +8,9 @@
 
 */
 body {
-  width: 960px;
-  margin: auto;
+  margin: 0;
+  /* width: 960px;
+  margin: auto; */
   font-family: "Oswald", Verdana, Arial, sans-serif;
 }
 .container {
@@ -92,6 +93,7 @@ h1 {
 }
 .middle-column p {
   margin: 0px;
+  margin-left: 10px;
   font-size: 12px;
 }
 .right-column {
@@ -110,6 +112,7 @@ h1 {
 }
 
 #useful-links ul {
+  margin-top: 100px;
   list-style-type: none;
   text-align: center;
 }
