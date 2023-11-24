@@ -6,6 +6,7 @@
 
     <!-- Stylesheet references -->
     <link rel="stylesheet" href="site.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
       rel="stylesheet"
@@ -23,16 +24,71 @@
         Description: 
 
         Programming cites
-        1. Code adapted from 
-
+        1. Code adapted from w3school https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
+        2. Code adapted from w3School https://www.w3schools.com/css/css3_borders.asp
 
     -->
     <header-component></header-component>
 
     <div class="container">
-      <h1 class="app-header">Welcome to my about Page</h1>
+      <div class="wrapper">
+        <div class="left-column">
+          <div class="wrapper">
+            <div class="left-column">
+              <p>
+                I grew up in a small new hampshire town named Hollis. I attended
+                both Northeastern University and Embry Riddle where I learned
+                how to fly a plane. Learning how to fly was one of my greatest
+                achievements in life. Although I loved flying it would not end
+                up being my career. I landed my first professional job at Bank
+                of Boston after my son was born. Soon I would enter into the
+                world of technology where I built my first Microsoft Access
+                application.
+              </p>
+            </div>
+            <div class="right-column">
+              <p>
+                I joined a program that taught a selected group of us how to
+                code cobol. This was needed to change the date field in
+                applications from two year to four year dates. After that
+                project was done I moved in to Microsoft's ASP.Net programming
+                language. I maintained numerous internal intranet sites using
+                asp.net for many years. After doing this I moved into a
+                leadership role as a scrum master which is what I am currently
+                doing. My ambition is to be a full stack web developer by
+                completing by Web Development degree at Bellevue University.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="right-column">
+          <div class="wrapper">
+            <div class="left-column">
+              <img
+                id="barbadosImg"
+                src="/images/barbados-beach.jpeg"
+                alt="Barbados Beach"
+              />
+            </div>
+            <div class="right-column">
+              <img
+                id="jeremyBarbadosImg"
+                src="/images/jeremy-at-beach.jpeg"
+                alt="jeremy at barbados"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-content">
+        <p>
+          I like to travel. I like to go on trips with my family or just with my
+          wife. The pictures are from my recent trip to Barbados with my wife.
+          That country is so beautiful. I like to take my family to Martha's
+          Vineyard and to Florida to visit family. <br />
+        </p>
+      </div>
     </div>
-
     <footer-component></footer-component>
     <script>
       //Home menu item font is green when user lands on page

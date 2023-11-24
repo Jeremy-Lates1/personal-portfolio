@@ -1,0 +1,39 @@
+/*
+    Title: about.css
+    Author: Jeremy Lates
+    Date: 11/23/2023
+
+    1. Code adapted from https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
+   
+
+
+*/
+.left-column {
+  width: 50%;
+  margin: 10px;
+}
+
+.right-column {
+  width: 50%;
+  margin: 10px;
+}
+#barbadosImg {
+  width: 100%;
+  height: 100%;
+}
+#jeremyBarbadosImg {
+  width: 100%;
+  height: 100%;
+}
+p {
+  margin: 0px;
+  font-size: 10px;
+}
+.bottom-content {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+}
+.bottom-content p {
+  margin-left: 50px;
+}
