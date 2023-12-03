@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  /* flex-direction: row; */
+  /* height: 500px; */
+}
+.left-div,
+.middle-div,
+.right-div {
+  box-shadow: 5px 5px 5px 5px grey;
+  height: 450px;
+  width: 250px;
+  margin: 33px;
+  text-align: center;
+  background-color: #6d63bf;
+}
