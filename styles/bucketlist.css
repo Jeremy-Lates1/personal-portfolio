@@ -1,0 +1,25 @@
+.app-header {
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #1cc776;
+  padding: 10px;
+}
+.grid-item {
+  background-color: #6d63bf;
+  border: 1px solid #1cc776;
+  color: white;
+  padding: 20px;
+  /* font-size: 30px; */
+  text-align: center;
+}
+p {
+  font-size: 12px;
+  margin: 0px;
+}
+h4 {
+  margin: 0px;
+  color: #1cc776;
+}
