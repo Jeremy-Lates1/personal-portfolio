@@ -96,7 +96,8 @@ h1 {
 #jeremyImg {
   width: 200px;
   height: 200px;
-  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
 }
 #developerImg {
   width: 200px;
