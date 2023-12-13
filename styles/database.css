@@ -1,13 +1,15 @@
 .wrapper {
   display: flex;
   grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
 }
 .left-div,
 .middle-div,
 .right-div {
   box-shadow: 5px 5px 5px 5px grey;
   height: 450px;
-  width: 250px;
+  width: 350px;
   margin: 33px;
   text-align: center;
   background-color: #6d63bf;
