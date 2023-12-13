@@ -1,7 +1,6 @@
 .wrapper {
   display: flex;
-  /* flex-direction: row; */
-  /* height: 500px; */
+  grid-template-columns: auto auto auto;
 }
 .left-div,
 .middle-div,
