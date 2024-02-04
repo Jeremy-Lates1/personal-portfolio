@@ -19,3 +19,11 @@
   text-align: center;
   background-color: #6d63bf;
 }
+#create-composer {
+  width: 250px;
+  height: 200px;
+}
+#find-all-composer {
+  width: 250px;
+  height: 150px;
+}
