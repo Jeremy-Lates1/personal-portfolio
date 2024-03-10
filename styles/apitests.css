@@ -4,6 +4,7 @@
     Date: 12/16/2023
 
 */
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -13,7 +14,7 @@
 .middle-div,
 .right-div {
   box-shadow: 5px 5px 5px 5px grey;
-  height: 450px;
+  height: 800px;
   width: 450px;
   margin: 33px;
   text-align: center;
@@ -23,7 +24,9 @@
   width: 250px;
   height: 200px;
 }
-#find-all-composer {
+#find-all-composer,
+#find-all-players-by-team-id,
+#find-all-teams {
   width: 250px;
   height: 150px;
 }
