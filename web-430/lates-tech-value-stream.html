@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jeremy Lates Portfolio</title>
+
+    <!-- Stylesheet references -->
+    <link rel="stylesheet" href="../site.css" />
+    <link rel="stylesheet" href="../styles/lates-tech-value-stream.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JavaScript references -->
+    <script src="../header.js"></script>
+    <script src="../footer.js"></script>
+  </head>
+  <body>
+    <!--
+        Title: lates-tech-value-stream.html
+        Author: Jeremy Lates
+        Date: 03/23/2024
+      
+    -->
+    <header-component></header-component>
+
+    <div class="container">
+      <div class="wrapper">
+        <div class="left-div">
+          <h6>Web-430: Tech Value Stream</h6>
+
+          <div class="card">
+            <div class="card-body">
+              <video controls autoplay reload="none" style="width: 400px">
+                <source
+                  src="../devops-presentations/lates-tech-value-stream.mp4"
+                  type="video/mp4"
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="middle-div">
+          <h6>Web-420 Restful APIs : Persons</h6>
+         
+        <div class="right-div">
+          <h6>Web-420 Restful APIs : User security</h6>
+        
+        </div>
+        -->
+      </div>
+    </div>
+
+    <footer-component></footer-component>
+    <script>
+      //Home menu item font is green when user lands on page
+      document.querySelector("#value-stream").style.color = "#1CC776";
+    </script>
+  </body>
+</html>

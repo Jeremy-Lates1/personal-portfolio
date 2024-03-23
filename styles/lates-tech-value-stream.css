@@ -1,0 +1,22 @@
+/*
+    Title: lates-tech-value-stream.css
+    Author: Jeremy Lates
+    Date: 03/23/2024
+
+*/
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-div,
+.middle-div,
+.right-div {
+  box-shadow: 5px 5px 5px 5px grey;
+  height: 400px;
+  width: 450px;
+  margin: 33px;
+  text-align: center;
+  background-color: #6d63bf;
+}

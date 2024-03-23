@@ -48,6 +48,9 @@ class Header extends HTMLElement {
                     <li>
                     <a  id="bucketlist" href="bucketlist.html">Bucket List</a>
                 </li>
+                <li>
+                <a  id="value-stream" href="./web-430/lates-tech-value-stream.html">Web-430</a>
+            </li>
                 </ul>
             </div>
             </div>
